@@ -7,7 +7,6 @@ img {
   max-width: 100%;
 }
 .container {
-  /*border: 1px solid #ccc;*/
   max-width: 1170px;
   width: 100%;
   margin-right: auto;
@@ -83,7 +82,7 @@ text-decoration: none;
   background-color: #2b2a2c;
   transition: all 0.4s ease-in-out;
 }
-.menu-button a:hover {
+.menu-button:hover {
   color: #fff;
   transition: all 0.4s ease-in-out;
 }
@@ -235,6 +234,7 @@ text-decoration: none;
   font-weight: 800;
   margin-top: 10px;
 }
+
 .about-container {
   padding-top: 112px;
   padding-bottom: 112px;
@@ -341,17 +341,36 @@ a.footer-button:hover {
   .project-card {
     width: 48%;
   }
+  .about-container {
+    background-size: 35%;
+  
 }
 @media (max-width: 992px) {
   .container {
     width: 760px;
+
   }
+  .hero {
+   background-size: 35%;
+   background-position: right 30%;
+  }
+    .about-container {
+    background-image: none;
+    padding-top: 0;
+}
    .project-card {
     width: 48%;
   }
   .about-info {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: auto;
+    width: 700px;
+}
+  /*
+  .about-info {
     margin-top: 500px;
-  }
+  }*/
 }
  @media (max-width: 768px) {
   .container {
@@ -364,12 +383,17 @@ a.footer-button:hover {
     display: none; 
    }
    .hero {
-     padding-bottom: 480px;
+     background-image: none;
+     padding-bottom: 10px;
      padding-top: 30px;
+
    }
    .project-card {
     width: 95%;
     margin: 30px auto;
   } 
+    .about-info {
+    width: 95%;
+}
 
 }
