@@ -1,0 +1,322 @@
+body  {
+  font-family: 'Open Sans', sans-serif;
+  color: #2b2a2c;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  /*border: 1px solid #ccc;*/
+  max-width: 1170px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.menu {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.description {
+  margin-left: 9px;
+}
+.menu-logo {
+  display: flex;
+  align-items: center;
+}
+.name {
+  display: block;
+  font-size: 16px;
+  font-weight: 800;
+}
+.avatar {
+  width: 57px;
+  height: 57px;
+  background: url(https://pp.userapi.com/c846120/v846120708/183bf7/hlK4ZIyDPZU.jpg);
+  background-size: 100%;
+  border-radius: 50%;
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+}
+.menu-list a {
+  text-decoration: none;
+  color: #2b2a2c;
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-right: 30px;
+  display: inline-block;
+  cursor: pointer;
+  position:relative;
+}
+
+.menu-list a:after {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: #2b2a2c;
+  transition: width .4s ease-in;
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%)
+}
+.menu-list a:hover:after,
+.menu-list a:focus:after {
+  width: 100%;
+}
+.menu-button {
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid #2b2a2c;
+  padding: 13px 22px;  
+}
+.hero {
+  padding-top: 112px;
+  padding-bottom: 112px;
+  background: url('https://wmpics.pics/di-1GDG.png') no-repeat right bottom;
+
+}
+.hero-subtitle {
+  font-size: 32px;
+}
+.hero-title {
+  font-size: 32px;
+  font-weight: 800;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+}
+.hero-description {
+  font-size: 18px;
+  color: #6a696b;
+}
+.hero-social {
+  margin-top: 30px;
+}
+.social {
+  display: inline-block;
+  width: 41px;
+  height: 41px;
+  color: #fff;
+  margin-right: 12px;
+  text-align: center;
+  line-height: 41px;
+}
+.behance-bg {
+  background-color: #1869ff;
+}
+.facebook-bg {
+  background-color: #3a5898;
+}
+.instagram-bg{
+  background-color: #13578a;
+}
+.vk-bg {
+  background-color: #56acef;
+}
+.hero-buttons, .about-buttons {
+  margin-top: 40px;
+}
+.button {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+  background-color: #2b2a2c;
+  border-radius: 50px;
+  padding: 15px 34px;
+}
+.button-primary {  
+  color: #fff;
+  margin-right: 17px;
+  margin-bottom: 10px;
+}
+.button-o {
+  color: #6a696b;
+  background-color: transparent;
+  border: 1px solid #2b2a2c;
+}
+.projects {
+  padding: 97px 0;
+}
+.project-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;  
+}
+.project-card {
+  min-height: 370px;
+  width: 370px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 50px;
+}
+.project-card__image {
+  height: 300px;
+}
+.landing-page-1 {
+  background: url('https://i.pinimg.com/564x/c4/7f/7b/c47f7b23b835002c45fcdfb0ef56971e.jpg') center top;
+   background-size: cover;
+     background-repeat: no-repeat;
+}
+.landing-page-2 {
+  background: url('https://i.pinimg.com/564x/e6/d7/c8/e6d7c8028e3a7d219121bbed7665a8e6.jpg') center top;
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+.landing-page-3 {
+  background: url('https://i.pinimg.com/564x/d9/49/07/d94907b68b2df638a5d5e70611964aaa.jpg') center top;
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+.landing-page-4 {
+  background: url(https://scr.template-help.com/59000/59018-wp-b.jpg) center top;
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+.landing-page-5 {
+  background: url('https://i.pinimg.com/564x/16/b9/8c/16b98c41049af85c9be6296251a178b4.jpg') center top;
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+.landing-page-6 {
+  background: url('  https://i.pinimg.com/564x/9f/d3/b4/9fd3b4b66f1f0913cf2c3ffa4e699813.jpg') center top;
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.project-card__info {
+  margin: 19px 20px 15px;
+}
+.project-category {
+  display: block;
+  font-size: 12px;
+}
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+}
+.about-container {
+  padding-top: 112px;
+  padding-bottom: 112px;
+  background: url('https://wmpics.pics/di-9FB0.png') no-repeat left top;
+  
+}
+.about-info {
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: 100px;
+  width: 480px;
+}
+h2 {
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 15px;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+}
+.about-info p {
+  color: #717072;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.footer {
+  background-color: #2b2a2c;
+  padding: 20px 0;
+  color: #8d8d8e;
+}
+.footer a {
+  color: #8d8d8e; 
+  text-decoration: none;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-text {
+  display: flex;
+  align-items: center;
+}
+.copyright {
+  padding-right: 16px;
+  margin-right: 16px;
+  border-right: 1px solid #413f41;
+  font-size: 14px;
+}
+.footer-social {}
+.footer-social__link {
+  font-style: 20px;
+  margin-right: 13px;
+}
+.footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+.footer-menu a {
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 30px;
+}
+.footer-button {
+  font-size: 14px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid #8d8d8e;
+  padding: 8px 22px;  
+}
+@media (max-width: 1200px) {
+  .container {
+    width: 95%;
+  }
+  .project-card {
+    width: 48%;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 760px;
+  }
+   .project-card {
+    width: 48%;
+  }
+  .about-info {
+    margin-top: 500px;
+  }
+}
+ @media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+   .description-small {
+     font-size: 10px;
+   }
+   .menu-list {
+    display: none; 
+   }
+   .hero {
+     padding-bottom: 480px;
+     padding-top: 30px;
+   }
+   .project-card {
+    width: 95%;
+    margin: 30px auto;
+  } 
+
+}
